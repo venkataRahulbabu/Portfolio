@@ -23,7 +23,7 @@
                 </div>
             </div>
 
-            <div class="inline-flex md:my-6 lg:inline-flex sm:hidden">
+            <div class="hidden md:block md:my-6 lg:inline-flex sm:hidden">
                 <div class="w-32 bg-black py-2 rounded-xl">
                     <a class="text-white hover:bg-slate-800 hover:rounded-xl hover:py-2 h-10 px-4 hover:px-4 py-2 justify-center"
                         href="https://drive.google.com/file/d/1yEdDwdZIOnTXzo1-Y0AN916dK0Pne4Y7/view?usp=drivesdk"
@@ -63,23 +63,24 @@
                     </svg></a>
             </div>
 
-            <div class="mx-auto max-w-2xl sm:py-16 lg:mb-3">
-                <div class="inline-block text-center items-center justify-center">
+            <div class="flex flex-wrap items-center justify-center mx-auto max-w-2xl sm:py-16 lg:mb-3">
+                <div class="inline-block text-center">
                     <h1
-                        class="scroll-m-20 md:text-5xl sm:text-4xl text-center font-extrabold tracking-tight lg:text-7xl leading-none mb-5">
+                        class="scroll-m-20 md:text-6xl text-4xl my-40 md:my-0 lg:my-3 text-center font-extrabold tracking-tight lg:text-7xl leading-none mb-5">
                         <span
                             class="whitespace-nowrap duration-500 ease-in-out transition bg-gradient-to-r from-[#ff80b5] to-[#9089fc] bg-clip-text text-transparent">M
                             V Rahul Babu</span>
                     </h1>
-                    <img class="h-40 w-40 lg:h-52 mx-44 pr-2 md:mx-56 lg:w-52 hover:scale-110 transition duration-700 ease-in-out bg-gray-50"
+                    <img class="h-40 w-40 lg:h-52 mx-40 pr-2 lg:w-52 hover:scale-110 transition duration-700 ease-in-out bg-gray-50"
                         src="images/IMG_10-12-2022(1)-modified.png" alt="">
                 </div>
             </div>
 
-            <span class="hidden lg:block absolute text-center text-slate-400 font-medium font-sans text-xl"></span>
-            <span class="hidden lg:block absolute left-8 text-slate-400 font-sans font-medium text-xl">Software
+            <span class="lg:hidden mt-20 absolute text-center text-slate-400 font-medium font-sans text-xl">Software
                 Developer and Tech Enthusiast</span>
-            <span class="hidden lg:block absolute right-8 text-slate-400 font-sans font-medium text-xl">Focusses on
+            <span class="hidden lg:block absolute left-8 lg:-my-3 text-slate-400 font-sans font-medium text-xl">Software
+                Developer and Tech Enthusiast</span>
+            <span class="hidden lg:block absolute right-8 lg:-my-3 text-slate-400 font-sans font-medium text-xl">Focusses on
                 building quality applications</span>
 
             <!-- <p class="lg:hidden text-xl text-muted-foreground text-center font-medium">Focused on building quality
@@ -91,8 +92,8 @@
             <p class="hidden lg:block absolute bottom-8 right-8 text-xl font-medium text-muted-foreground">Focused on
                 building quality experiences</p> -->
 
-            <div class="relative flex items-center justify-center my-5 shadow">
-                <div class="fixed bg-gray-200 text-center py-3 rounded-xl px-2 z-50">
+            <div class="flex items-center justify-center shadow">
+                <div class="fixed bg-gray-200 text-center py-3 -my-12 rounded-xl px-2">
                     <ul class="flex -my-3 items-center justify-center">
                         <li class="mx-2 py-2 h-10 w-16 my-2 px-1 rounded-md hover:bg-neutral-300"><a
                                 href="#about">About</a></li>
@@ -115,13 +116,12 @@
         </div>
     </div>
 
-    <div class="bg-white py-32 sm:py-16" id="about">
-        <div class="max-w-full mx-auto px-6 lg:px-8">
+    <!-- <div class="bg-white py-32 sm:py-16" id="about">
+        <div class="max-w-full grid grid-cols-2 sm:grid-cols-1 mx-auto px-6 lg:px-8">
             <p class="mt-2 text-3xl font-bold tracking-tight text-indigo-500 lg:text-5xl mb-4">I focus on building <span
                     class="bg-gradient-to-r from-[#ff80b5] to-[#9089fc] bg-clip-text text-transparent">quality</span>
                 applications and services</p>
             <div class="inline-flex max-w-xl justify-between">
-                <!-- <h2 class="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2> -->
                 <p class="mt-6 text-xl leading-8 text-gray-600">I'm an undergraduate student from Indian Institute of
                     Information Technology Kottayam, pursuing bachelor's degree in Computer Science and
                     Engineering.</br></br>My passion lies in creating software that solves real-world problems and
@@ -130,7 +130,43 @@
                     to
                     share with you. But I'm always open to new opportunities and collaborations.</p>
             </div>
-            <div class="inline-flex justify-between max-w-4xl sm:mx-10 border border-collapse">
+            <div class="inline-flex justify-between max-w-4xl sm:mx-10 border border-collapse md:max-w-full">
+                <div class="container justify-start lg:m-5">
+                    <h1 class="text-xl font-semibold">Languages | Markup</h1>
+                    <p class="text-gray-500 my-3">JavaScript, Python, C, C++, HTML, CSS</p>
+                    <h1 class="text-xl font-semibold">Libraries | Frameworks</h1>
+                    <p class="text-gray-500 my-3">React.js, Node.js, Express.js, REST API, Tailwind CSS, Bootstrap</p>
+                    <h1 class="text-xl font-semibold">Databases</h1>
+                    <p class="text-gray-500 my-3">MongoDB, MySQL</p>
+                    <h1 class="text-xl font-semibold">Tools</h1>
+                    <p class="text-gray-500 my-3">Git, Github, Bash, Postman, VS Code</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="lg:mt-10 mt-32 mb-3 py-6 justify-self-start lg:my-10" id="about">
+        <div class="px-3 mx-3">
+            <p class="mt-2 text-3xl font-bold tracking-tight text-indigo-500 lg:text-5xl mb-4">I focus on building <span
+                    class="bg-gradient-to-r from-[#ff80b5] to-[#9089fc] bg-clip-text text-transparent">quality</span>
+                applications and services</p>
+        </div>
+        <div class="grid md:grid-cols-2 grid-cols-1 gap-6 items-center justify-center py-3">
+            <div class="justify-between mx-3 px-3">
+                <p class="mt-3 text-xl leading-8 text-gray-600 my-5">I'm an undergraduate student from Indian Institute
+                    of
+                    Information Technology Kottayam, pursuing bachelor's degree in Computer Science and
+                    Engineering.</br></br>My passion lies in creating software that solves real-world problems and
+                    positively
+                    impacts peoples lives.</br><br> Right now, I'm working on some exciting projects that I can't wait
+                    to
+                    share with you. But I'm always open to new opportunities and collaborations.</p>
+            </div>
+            <span class="container md:hidden block text-center">
+                <a class="bg-slate-800 px-3 py-2 text-white rounded-lg" href="https://drive.google.com/file/d/1yEdDwdZIOnTXzo1-Y0AN916dK0Pne4Y7/view?usp=drivesdk">View Resume</a>
+            </span>
+
+            <div class="justify-between sm:mx-10 border border-collapse mx-3 px-3 my-5">
                 <div class="container justify-start lg:m-5">
                     <h1 class="text-xl font-semibold">Languages | Markup</h1>
                     <p class="text-gray-500 my-3">JavaScript, Python, C, C++, HTML, CSS</p>
@@ -146,7 +182,7 @@
     </div>
 
 
-    <span class="inline-flex font-bold font-sans text-3xl px-4 mx-4 py-4" id="projects">Projects</span>
+    <span class="inline-flex font-bold font-sans text-3xl px-3 mx-3 py-4" id="projects">Projects</span>
 
     <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 items-center justify-center mx-10">
         <div class="border border-separate rounded-md">
@@ -154,7 +190,7 @@
             <div
                 class="mx-5 border border-collapse rounded-md justify-center items-center bg-gradient-to-r from-[#ff80f9] to-[#9089fc]">
                 <div
-                    class="m-7 rounded-lg border shadow-sm flex flex-col transition ease-in-out hover:scale-105 duration-500 -z-50">
+                    class="m-7 rounded-lg border shadow-sm flex flex-col transition ease-in-out hover:scale-105 duration-500">
                     <img src="images/Project_Image.png" alt="">
                 </div>
             </div>
@@ -180,7 +216,7 @@
             <div
                 class="mx-5 border border-collapse rounded-md justify-center items-center bg-gradient-to-r from-[#ff80f9] to-[#9089fc]">
                 <div
-                    class="m-7 rounded-lg border shadow-sm flex flex-col transition ease-in-out hover:scale-105 duration-500 -z-50">
+                    class="m-7 rounded-lg border shadow-sm flex flex-col transition ease-in-out hover:scale-105 duration-500">
                     <img src="images/Hospital_Project.png" alt="">
                 </div>
             </div>
@@ -199,6 +235,7 @@
                 <a class="bg-slate-200 text-justify rounded-md p-2 mx-4"
                     href="https://github.com/venkataRahulbabu/Hospital-Management-System" target="_blank"><i
                         class="fa-brands fa-github mx-0.5 mb-3"></i>Github</a>
+
             </div>
         </div>
     </div>
@@ -214,7 +251,7 @@
     </div>
 
 
-    <div class="grid md:grid-cols-2 sm:grid-cols-1 gap-8 items-center justify-center mx-10 my-10">
+    <div class="grid md:grid-cols-2 sm:grid-cols-1 gap-8 items-center justify-center mx-3 px-3 my-10">
         <div class="my-5">
             <h1 class="font-bold text-5xl font-sans" id="contact">Let's Connect</h1>
             <p class="text-clip tracking-tight font-medium text-xl mt-5">Got a question,proposal,or project, or wishing
@@ -240,8 +277,7 @@
 
     <div class="py-6 mx-10 border-t mt-4">
         <div class="container">
-            <p class="text-lg font-medium">Designed and Developed by <a
-                    class="underline underline-offset-2"
+            <p class="text-lg font-medium">Designed and Developed by <a class="underline underline-offset-2"
                     href="https://github.com/venkataRahulbabu" target="_blank" data-state="closed">Rahul</a></p>
         </div>
     </div>
